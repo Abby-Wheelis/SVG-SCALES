@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+    <h1>A Silly Face and Scales</h1>
+    
+    <div>
+    <h2>Silly Face</h2>
+    
+    <svg width = "600" height = "600" >
+        <circle cx="300" cy="300" r="250" class="Face"></circle>
+        <ellipse cx="200" cy="225" rx="20" ry="40" class="eye"></ellipse>
+        <ellipse cx="400" cy="225" rx="20" ry="40" class="eye"></ellipse>
+        <rect x="200" y="400" width="200" height="50" class="mouth"></rect>
+        <line x1="300" y1="250" x2="350" y2="350" class ="nose"></line>
+        <line x1="300" y1="350" x2="353" y2="350" class ="nose"></line>
+    
+    </svg>
+
+    <h2>Scales!!!</h2>
+    
+    <p>As Murray quotes in the book, "scales are functions that map from an input domain to an output domain." Essentially, scales are functions used to take your data as an input and converts it to the pixels in order to scale down (or up) your dataset. Without scales, an svg that you are creating would have the data correspond directly to a pixel dimension, which would be highly inconcenient if your data point was say, 3 trillion dollars, it simply wouldn't be practical. Scales are useful in data visualizations becasue they allow you to convert the magnitude of your data into a corresponding pixel dimension in order to convey that magnitude in a clean visual. Additionally, scales are useful in data visualizations because they can be configured such that the visualization will respond well to added data, even if it was well outside the former domain or range. This is done with clever use of the d3.max() method. </p>
+        
+    </div>
+    
+</body>   
+</html>

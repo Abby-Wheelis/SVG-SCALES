@@ -1,0 +1,43 @@
+h1, h2
+{
+    text-align: center;
+    color: #2274a5;
+}
+
+body
+{
+    background-color: #fcecc9;
+    color: #2d3047;
+    font-size: 20px;
+}
+
+div
+{
+    width: 600px;
+    margin: auto;
+}
+
+/* begin SVG */
+
+.Face
+{
+    fill: #ffdd4a;
+}
+
+.eye
+{
+    fill: #2274a5;
+    stroke: #fcecc9;
+    stroke-width: 15px;
+}
+
+.mouth
+{
+    fill: #ed217c;
+}
+
+.nose
+{
+    stroke: #2d3047;
+    stroke-width: 10px;
+}
